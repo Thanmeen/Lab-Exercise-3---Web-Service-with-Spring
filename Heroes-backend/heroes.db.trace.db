@@ -1,0 +1,18 @@
+2025-03-31 20:56:18.223746+07:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NAME"; SQL statement:
+NAME [42000-232]
+2025-03-31 20:56:22.311760+07:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]NAME HUMAN"; SQL statement:
+NAME HUMAN [42000-232]
+2025-03-31 20:56:37.211410+07:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HUMANSUPERHUMAN" not found; SQL statement:
+SELECT * FROM HUMANSUPERHUMAN [42102-232]
+2025-03-31 20:56:44.237611+07:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HUMANSUPERHUMAN" not found; SQL statement:
+SELECT * FROM HUMANSUPERHUMAN SUPERHUMAN_HUMAN [42102-232]
+2025-03-31 20:56:46.076706+07:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HUMANSUPERHUMAN" not found; SQL statement:
+SELECT * FROM HUMANSUPERHUMAN SUPERHUMAN_HUMAN WEAPON [42102-232]
+2025-03-31 21:24:09.054053+07:00 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM HUMAN SUPERHUMAN [*]SUPERHUMAN_HUMAN"; SQL statement:
+SELECT * FROM HUMAN SUPERHUMAN SUPERHUMAN_HUMAN [42000-232]
